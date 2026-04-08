@@ -1,0 +1,114 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+  .g-wrap { font-family: 'Poppins', sans-serif; background: #F6F3F0; padding: 40px 36px 36px; border-radius: 16px; position: relative; overflow: hidden; }
+  .deco-tl { position: absolute; top: -28px; left: -28px; width: 100px; height: 100px; border-radius: 50%; border: 12px solid #C4705A; opacity: 0.15; }
+  .deco-tl2 { position: absolute; top: 10px; left: 10px; width: 48px; height: 48px; border-radius: 50%; background: #C4705A; opacity: 0.10; }
+  .deco-br { position: absolute; bottom: -36px; right: -36px; width: 130px; height: 130px; border-radius: 50%; border: 16px solid #2A2D35; opacity: 0.08; }
+  .deco-br2 { position: absolute; bottom: -18px; right: -18px; width: 80px; height: 80px; border-radius: 50%; border: 10px solid #C4705A; opacity: 0.12; }
+  .g-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+  .g-logo { display: flex; flex-direction: column; }
+  .g-logo-name { font-size: 28px; font-weight: 700; color: #2A2D35; line-height: 1; letter-spacing: -0.5px; }
+  .g-logo-name span { color: #C4705A; }
+  .g-logo-sub { font-size: 11px; color: #888; font-weight: 400; margin-top: 2px; letter-spacing: 0.5px; }
+  .g-badge { background: #2A2D35; color: #fff; font-size: 11px; font-weight: 600; padding: 5px 14px; border-radius: 20px; }
+  .g-title { font-size: 13px; font-weight: 600; color: #C4705A; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 4px; }
+  .g-headline { font-size: 30px; font-weight: 700; color: #2A2D35; line-height: 1.15; margin-bottom: 6px; }
+  .g-desc { font-size: 13px; color: #5F5E5A; line-height: 1.55; margin-bottom: 24px; max-width: 560px; }
+  .g-pills { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 28px; }
+  .g-pill { display: flex; align-items: center; gap: 6px; background: #fff; border-radius: 8px; padding: 6px 12px; font-size: 11px; color: #5F5E5A; font-weight: 500; border: 0.5px solid #E0DDD8; }
+  .g-dot { width: 7px; height: 7px; border-radius: 50%; background: #C4705A; flex-shrink: 0; }
+  .g-sessions { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 22px; }
+  .g-card { background: #fff; border-radius: 10px; padding: 14px 12px; border: 0.5px solid #E0DDD8; display: flex; flex-direction: column; gap: 6px; }
+  .g-card:hover { border-color: #C4705A; }
+  .g-card-num { font-size: 10px; font-weight: 600; color: #C4705A; letter-spacing: 0.5px; text-transform: uppercase; }
+  .g-card-line { width: 20px; height: 2px; background: #C4705A; border-radius: 2px; }
+  .g-card-title { font-size: 12px; font-weight: 700; color: #2A2D35; line-height: 1.2; }
+  .g-card-desc { font-size: 10px; color: #888; line-height: 1.5; flex: 1; }
+  .g-card-week { font-size: 9px; color: #aaa; font-weight: 500; margin-top: 2px; }
+  .g-result { background: #2A2D35; border-radius: 12px; padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .g-result-label { font-size: 10px; font-weight: 600; color: #C4705A; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 5px; }
+  .g-result-text { font-size: 13px; color: #fff; font-weight: 500; line-height: 1.45; max-width: 420px; }
+  .g-result-right { text-align: right; }
+  .g-price-label { font-size: 10px; color: #888; margin-bottom: 3px; }
+  .g-price { font-size: 20px; font-weight: 700; color: #C4705A; }
+  .g-price-note { font-size: 10px; color: #666; margin-top: 1px; }
+  @media (max-width: 600px) { .g-sessions { grid-template-columns: 1fr 1fr; } .g-result { flex-direction: column; } }
+</style>
+
+<div class="g-wrap">
+  <div class="deco-tl"></div>
+  <div class="deco-tl2"></div>
+  <div class="deco-br"></div>
+  <div class="deco-br2"></div>
+
+  <div class="g-header">
+    <div class="g-logo">
+      <div class="g-logo-name">GESTI<span>ÓN</span> IA</div>
+      <div class="g-logo-sub">Programa de acompañamiento individual</div>
+    </div>
+    <div class="g-badge">Programa privado</div>
+  </div>
+
+  <div class="g-title">Para líderes y directivos</div>
+  <div class="g-headline">Recupera tu tiempo<br>con inteligencia artificial</div>
+  <div class="g-desc">Un programa 1 a 1 donde partimos de tu trabajo real, identificamos dónde la IA puede hacerte la gestión más eficiente, y construimos juntos una solución concreta. Sin tecnicismos. Sin cursos masivos.</div>
+
+  <div class="g-pills">
+    <div class="g-pill"><div class="g-dot"></div>5 sesiones individuales</div>
+    <div class="g-pill"><div class="g-dot"></div>1 sesión por semana</div>
+    <div class="g-pill"><div class="g-dot"></div>Sin conocimientos técnicos</div>
+    <div class="g-pill"><div class="g-dot"></div>Completamente privado</div>
+  </div>
+
+  <div class="g-sessions">
+    <div class="g-card">
+      <div class="g-card-num">Sesión 1</div>
+      <div class="g-card-line"></div>
+      <div class="g-card-title">Diagnóstico</div>
+      <div class="g-card-desc">Mapeamos tu trabajo real y dónde la IA puede actuar concretamente.</div>
+      <div class="g-card-week">Semana 1</div>
+    </div>
+    <div class="g-card">
+      <div class="g-card-num">Sesión 2</div>
+      <div class="g-card-line"></div>
+      <div class="g-card-title">Posibilidades</div>
+      <div class="g-card-desc">Te presento opciones concretas para tu caso. Tú eliges qué construimos.</div>
+      <div class="g-card-week">Semana 2</div>
+    </div>
+    <div class="g-card">
+      <div class="g-card-num">Sesión 3</div>
+      <div class="g-card-line"></div>
+      <div class="g-card-title">Construcción</div>
+      <div class="g-card-desc">Lo construimos juntos con tu información y tu contexto real.</div>
+      <div class="g-card-week">Semana 3</div>
+    </div>
+    <div class="g-card">
+      <div class="g-card-num">Sesión 4</div>
+      <div class="g-card-line"></div>
+      <div class="g-card-title">Ajuste</div>
+      <div class="g-card-desc">Revisamos cómo lo usaste en tu trabajo real y lo hacemos tuyo.</div>
+      <div class="g-card-week">Semana 5</div>
+    </div>
+    <div class="g-card">
+      <div class="g-card-num">Sesión 5</div>
+      <div class="g-card-line"></div>
+      <div class="g-card-title">Continuidad</div>
+      <div class="g-card-desc">Consolidas lo aprendido y defines tus próximos pasos con criterio propio.</div>
+      <div class="g-card-week">Semana 6</div>
+    </div>
+  </div>
+
+  <div class="g-result">
+    <div>
+      <div class="g-result-label">Al terminar el programa</div>
+      <div class="g-result-text">Identificas qué tareas de tu gestión puede resolver la IA y tienes al menos una solución funcionando en tu trabajo real.</div>
+    </div>
+    <div class="g-result-right">
+      <div class="g-price-label">Inversión</div>
+      <div class="g-price">$590.000</div>
+      <div class="g-price-note">CLP · precio de lanzamiento</div>
+    </div>
+  </div>
+
+</div>
